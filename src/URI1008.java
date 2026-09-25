@@ -12,18 +12,18 @@ public class URI1008 {
                               
         Scanner sc = new Scanner(System.in);
 
-        int A = sc.nextInt();
+        
+        int number = sc.nextInt();
+        int hours = sc.nextInt();
+        double value = sc.nextDouble();
 
-        int B = sc.nextInt();
-
-        int C = sc.nextInt();
-
-        int D = sc.nextInt();
-
-        int DIFERENCA = A * B - C * D;
+        double salary = hours * value;
 
 
-        System.out.println("DIFERENCA = " + DIFERENCA);
+        System.out.println("NUMBER = " + number);
+        System.out.printf("SALARY = U$ %.2f%n ", salary);
+
+        
 
         sc.close();       
 
